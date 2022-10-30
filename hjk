@@ -1,0 +1,31 @@
+# S = input()
+# A = 'abcdefghijklmnopqrstuvwxyz'
+# for i in A:
+#     if i in S:
+#         print(S.index(i), end = ' ')
+#     else:
+#         print(-1, end = ' ')
+# A,B = input().split()
+# a = int(A[::-1])
+# b = int(B[::-1])
+# if a > b:
+#     print(a)
+# else:
+#     print(b)
+# a = ["ABC","DEF","GHI","JKL","MNO","PQRS",'TUV',"WXYZ"]
+# b = input()
+# time = 0
+# for i in b:
+#     for j in a:
+#         if i in j:
+#             time += a.index(j) + 3
+# print(time)
+# string = input()
+# cnt = len(string)
+# croatia = ['c=','c-','dz=','d-','lj','nj','s=','z=']
+# for i in croatia:
+#     cnt -= string.count(i)
+# print(cnt)
+a = "Hello Python"
+print(a.replace('o','x'))
+print(a.startswith("He"))
